@@ -13,5 +13,3 @@ function ayudanteGeneral(){
 function seguridad(){
     window.location.href="vacantes/seguridad.html";
 }
-
-

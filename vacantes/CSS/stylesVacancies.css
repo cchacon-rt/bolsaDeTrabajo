@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px
+}
+
+.vacancy{
+    flex:1 1 400px;
+}
+
+.vacancy h2{
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    margin-right: 55%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.vacancies-info{
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    width: 45%;
+}
+
+.vacancies-info .information{
+    font-size: 1rem;
+    color: #06636a;
+    margin-bottom: 10px;
+    font-weight: 800;
+    margin-left: 3%;
+}
+
+.vacancies-info .information-text{
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    color: #555;
+    margin-left: 3%;
+}
+
+.btn-apply {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+.btn-apply:hover{
+    background: #2980b9;
+}
