@@ -12,9 +12,13 @@ function ayudanteGeneral(){
 
 function seguridad(){
     window.location.href="vacantes/seguridad.html";
+<<<<<<< HEAD
 }
 
 
 function postularme(){
     window.location.href="postulante/postulacion.html";
 }
+=======
+}
+>>>>>>> f564ee8f296f2c33fe2af2ceb5d5441d296181fd
