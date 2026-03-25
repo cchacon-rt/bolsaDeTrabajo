@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa de trabajo</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bolsa de trabajo</h1>
+        <p>Aquí puedes encontrar ofertas laborales y puedes aplicar a la oferta que te interese.</p>
+    </header>
+    <nav>
+        
+    </nav>
+    <main>
+        <section class="vacancies-section">
+            <h2>Vacantes disponibles</h2>
+            <div class="vacancies-card">
+                <h3>Gerente</h3>
+                <div class="company">Liverpool</div>
+                <div class="description">Se solicita Gerente con 3 años de experiencia en puesto similar</div>
+                <a href="vacantes/gerente.html">
+                <button class="btn-apply">Más información</button>
+                </a>
+            </div>
+
+            <div class="vacancies-card">
+                <h3>Asesor financiero</h3>
+                <div class="company">Banorte</div>
+                <div class="description">Se solicita Asesor con 2 años de experiencia en puesto y resposibilidades similares a la vacante</div>
+                <button onclick="window.location.href='vacantes/asesor.html'" class="btn-apply">Más información</button>
+            </div>
+
+            <div class="vacancies-card">
+                <h3>Promotor</h3>
+                <div class="company">BIMBO</div>
+                <div class="description">Se solicita Promotor con un año de experincia en productos del sector alimenticio</div>
+                <button onclick="promotor()" class="btn-apply">Más información</button>
+            </div>
+
+            <div class="vacancies-card">
+                <h3>Call Center Bilingue</h3>
+                <div class="company">TelePerformance</div>
+                <div class="description">Se solicita operador de Call Center bilingue con 6 meses de experiencia minimo.</div>
+                <button onclick="callcenter()" class="btn-apply">Más información</button>
+            </div>
+
+            <div class="vacancies-card">
+                <h3>Ayudante General</h3>
+                <div class="company">Imprenta Popular</div>
+                <div class="description">Se solicita ayudante general para importante empresa en el sector.</div>
+                <button onclick="ayudanteGeneral()" class="btn-apply">Más información</button>
+            </div>
+
+            <div class="vacancies-card">
+                <h3>Seguridad</h3>
+                <div class="company"></div>
+                <div class="description">Se solicita personal de seguridad para el Museo de las Tres Culturas.</div>
+                <button onclick="seguridad()" class="btn-apply">Más información</button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        Última actualización: 17-03-2026
+    </footer>
+    <script src="JS/functions.js"></script>
+</body>
+</html>
